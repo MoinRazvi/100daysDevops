@@ -33,3 +33,6 @@ This enforces the **Principle of Least Privilege**.
 ```bash
 cat /etc/shells
 
+### ✅ Check Available Shells
+```bash
+cat /etc/shells
