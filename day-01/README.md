@@ -36,16 +36,64 @@ cat /etc/shells
 
 ---
 
-### ✅ Test
-```bash
-# run a simple test command (placeholder)
-test
-```
+✅ Create a User with /sbin/nologin
+sudo useradd -m -s /sbin/nologin appuser
 
 
-### ✅ Test1
-```bash
-# run a simple test command (placeholder)1
-test1
-```
+-m → Creates home directory
+
+-s → Assigns login shell
+
+✅ Create a User with /bin/false
+sudo useradd -m -s /bin/false serviceuser
+
+✅ Verify User Shell
+grep appuser /etc/passwd
+
+
+Example output:
+
+appuser:x:1002:1002::/home/appuser:/sbin/nologin
+
+✅ Attempt SSH Login (Expected to Fail)
+ssh appuser@localhost
+
+
+Expected result:
+
+This account is currently not available.
+
+✅ Change Existing User Shell to Non-Interactive
+sudo usermod -s /sbin/nologin existinguser
+
+✅ Lock User Account (Optional Hardening)
+sudo passwd -l appuser
+
+✅ Check User Login Status
+sudo passwd -S appuser
+
+✅ Switch User Test (Will Fail)
+su - appuser
+
+📌 Real-World Use Cases
+
+Database service accounts (e.g., mysql, postgres)
+
+Application runtime users
+
+CI/CD agents
+
+Monitoring and logging services
+
+Security-hardened production systems
+
+🧠 Key Learnings
+
+Not all users need shell access
+
+/sbin/nologin is preferred for clarity
+
+Reduces attack surface
+
+Essential Linux hardening practice
 
