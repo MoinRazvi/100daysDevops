@@ -85,8 +85,6 @@ Over the next 100 days, we’ll work with:
 
 ---
 
-## 🔹 Environment Setup (Day 1 Task)
-
 ### ✅ System Requirements
 
 * Laptop/Desktop (Windows / Linux / macOS)
@@ -99,23 +97,25 @@ Over the next 100 days, we’ll work with:
 * VS Code (recommended)
 * Linux VM (or WSL for Windows users)
 
-### ✅ Git Verification
-
-```bash
-git --version
-```
-
 ---
 
 ## 📂 Repository Structure (Initial)
 
 ```text
 100-days-of-devops/
+├── README.md
 ├── Day-01/
-│   └── README.md
 ├── Day-02/
 ├── Day-03/
-└── ...
+├── Day-04/
+├── Day-05/
+├── Day-06/
+├── Day-07/
+├── Day-08/
+├── Day-09/
+├── Day-10/
+└── .gitignore
+
 ```
 
 ---
