@@ -1,31 +1,74 @@
-# 🚀 Day 02 – Temporary Linux User Setup with Expiry
+🚀 Day 02 – Temporary Linux User Setup with Expiry
+🎯 Objective
 
-## 🎯 Objective
-Create Linux users with an **account expiry date** to ensure **automatic access removal** for temporary users such as contractors, interns, or auditors. This automates security cleanup and follows the "Least Privilege" lifecycle.
+Create Linux users with an account expiry date to ensure automatic access removal for temporary users such as contractors, auditors, or interns.
 
----
+👤 Why Temporary Users?
 
-## 👤 Temporary User Concept
-Temporary users are accounts configured to **expire automatically** after a specific date. Once the date passes:
-* The user can no longer log in.
-* Any active sessions may be terminated (depending on system config).
-* This prevents "forgotten" accounts from becoming security vulnerabilities.
+Temporary users provide time-bound access to systems.
+Once the expiry date is reached:
 
----
+Login access is disabled
 
-## 🔐 Key Commands for User Management
-| Command | Purpose |
-|:---|:---|
-| `useradd` | Create a new user with specific attributes. |
-| `chage` | View and modify user password/account expiry information. |
-| `usermod` | Modify existing user account settings (Lock/Unlock). |
-| `passwd` | Set or change user passwords. |
+SSH access is blocked
 
----
+Password authentication stops
 
-## 🛠️ Hands-on Implementation
+This improves security, compliance, and access hygiene in production environments.
 
-### 1. Create a User with a Specific Expiry Date
-Use the `-e` flag with the format `YYYY-MM-DD`.
-```bash
+🛠️ Commands Used
+
+useradd
+
+passwd
+
+chage
+
+id
+
+usermod
+
+🧪 Hands-on Commands Used
+✅ Create User with Expiry Date
 sudo useradd -m -e 2026-01-31 tempuser
+
+✅ Set Password for the User
+sudo passwd tempuser
+
+✅ Verify User Creation
+id tempuser
+
+✅ Check Account Expiry Details
+sudo chage -l tempuser
+
+✅ Add Expiry Date to Existing User
+sudo useradd -m tempuser2
+sudo passwd tempuser2
+sudo chage -E 2026-01-31 tempuser2
+
+✅ Remove Expiry Date (Extend Access)
+sudo chage -E -1 tempuser
+
+✅ Lock and Unlock User Account
+sudo usermod -L tempuser
+sudo usermod -U tempuser
+
+📌 Real-World Use Cases
+
+Contractor or vendor access
+
+Audit and compliance activities
+
+Temporary production troubleshooting
+
+Intern or trainee onboarding
+
+🧠 Key Learnings
+
+Account expiry prevents forgotten access
+
+chage manages the full user access lifecycle
+
+Temporary users enforce least privilege
+
+This is a real production DevOps practice
