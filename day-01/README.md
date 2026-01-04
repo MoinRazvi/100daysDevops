@@ -1,3 +1,8 @@
+```markdown
+✅ Create a User with /sbin/nologin
+```
+
+````markdown name=day-01/README.md url=https://github.com/MoinRazvi/100daysDevops/blob/e5f516066fc3f00e0484c30f97409cd676d231ac/day-01/README.md
 # 🚀 Day 01 – Linux User Setup with Non-Interactive Shell
 
 ## 🎯 Objective
@@ -36,64 +41,89 @@ cat /etc/shells
 
 ---
 
-✅ Create a User with /sbin/nologin
+### ✅ Create a User with /sbin/nologin
+```bash
 sudo useradd -m -s /sbin/nologin appuser
+```
 
+- `-m` → Creates home directory
+- `-s` → Assigns login shell
 
--m → Creates home directory
+---
 
--s → Assigns login shell
-
-✅ Create a User with /bin/false
+### ✅ Create a User with /bin/false
+```bash
 sudo useradd -m -s /bin/false serviceuser
+```
 
-✅ Verify User Shell
+---
+
+### ✅ Verify User Shell
+```bash
 grep appuser /etc/passwd
-
+```
 
 Example output:
-
+```plain
 appuser:x:1002:1002::/home/appuser:/sbin/nologin
+```
 
-✅ Attempt SSH Login (Expected to Fail)
+---
+
+### ✅ Attempt SSH Login (Expected to Fail)
+```bash
 ssh appuser@localhost
-
+```
 
 Expected result:
-
+```plain
 This account is currently not available.
+```
 
-✅ Change Existing User Shell to Non-Interactive
+---
+
+### ✅ Change Existing User Shell to Non-Interactive
+```bash
 sudo usermod -s /sbin/nologin existinguser
+```
 
-✅ Lock User Account (Optional Hardening)
+---
+
+### ✅ Lock User Account (Optional Hardening)
+```bash
 sudo passwd -l appuser
+```
 
-✅ Check User Login Status
+---
+
+### ✅ Check User Login Status
+```bash
 sudo passwd -S appuser
+```
 
-✅ Switch User Test (Will Fail)
+---
+
+### ✅ Switch User Test (Will Fail)
+```bash
 su - appuser
+```
+
+---
 
 📌 Real-World Use Cases
 
-Database service accounts (e.g., mysql, postgres)
+- Database service accounts (e.g., `mysql`, `postgres`)
+- Application runtime users
+- CI/CD agents
+- Monitoring and logging services
+- Security-hardened production systems
 
-Application runtime users
-
-CI/CD agents
-
-Monitoring and logging services
-
-Security-hardened production systems
+---
 
 🧠 Key Learnings
 
-Not all users need shell access
-
-/sbin/nologin is preferred for clarity
-
-Reduces attack surface
-
-Essential Linux hardening practice
-
+- Not all users need shell access
+- `/sbin/nologin` is preferred for clarity
+- Reduces attack surface
+- Essential Linux hardening practice
+````
