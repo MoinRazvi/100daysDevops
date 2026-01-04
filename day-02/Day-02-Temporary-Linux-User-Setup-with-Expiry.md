@@ -75,3 +75,4 @@ sudo usermod -U tempuser
 - `chage` is critical for access lifecycle management
 - Combining expiry with audits improves system hygiene
 - This is a real production practice, not just theory
+  
