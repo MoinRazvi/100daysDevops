@@ -29,14 +29,17 @@ This enforces the **Principle of Least Privilege**.
 
 ## 🛠️ Hands-on Commands Used
 
-### ✅ Check Available Shells
+### ✅ Check available shells
 ```bash
 cat /etc/shells
+```
 
 ---
 
-## 🛠️ Test
-
 ### ✅ Test
 ```bash
+# run a simple test command (placeholder)
 test
+```
+
+Note: This is a snippet of text from a thread scoped file. It is not itself a file.
