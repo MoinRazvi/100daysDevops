@@ -141,4 +141,3 @@ ansible-playbook --version
 * Ensuring PATH correctness makes Ansible globally usable
 * Version verification is critical before automation
 * Ansible installation is the **first step toward automation**
-
