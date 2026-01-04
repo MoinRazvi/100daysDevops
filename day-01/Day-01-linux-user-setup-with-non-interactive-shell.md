@@ -119,4 +119,4 @@
 > - Not all users need shell access  
 > - `/sbin/nologin` is preferred for clarity  
 > - Reduces attack surface  
-> - Essential Linux hardening practice  
+> - Essential Linux hardening practice
