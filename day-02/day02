@@ -1,0 +1,31 @@
+# 🚀 Day 02 – Temporary Linux User Setup with Expiry
+
+## 🎯 Objective
+Create Linux users with an **account expiry date** to ensure **automatic access removal** for temporary users such as contractors, interns, or auditors. This automates security cleanup and follows the "Least Privilege" lifecycle.
+
+---
+
+## 👤 Temporary User Concept
+Temporary users are accounts configured to **expire automatically** after a specific date. Once the date passes:
+* The user can no longer log in.
+* Any active sessions may be terminated (depending on system config).
+* This prevents "forgotten" accounts from becoming security vulnerabilities.
+
+---
+
+## 🔐 Key Commands for User Management
+| Command | Purpose |
+|:---|:---|
+| `useradd` | Create a new user with specific attributes. |
+| `chage` | View and modify user password/account expiry information. |
+| `usermod` | Modify existing user account settings (Lock/Unlock). |
+| `passwd` | Set or change user passwords. |
+
+---
+
+## 🛠️ Hands-on Implementation
+
+### 1. Create a User with a Specific Expiry Date
+Use the `-e` flag with the format `YYYY-MM-DD`.
+```bash
+sudo useradd -m -e 2026-01-31 tempuser
