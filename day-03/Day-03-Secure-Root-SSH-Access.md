@@ -157,5 +157,4 @@ sudo sshd -t
 * Key-based authentication is **more secure than passwords**
 * SSH changes must always be **validated before reload**
 * Restarting `sshd` applies security policies immediately
-* Secure SSH is a **foundational DevOps responsibility**
-  
+* Secure SSH is a **foundational DevOps responsibility**  
