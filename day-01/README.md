@@ -42,4 +42,10 @@ cat /etc/shells
 test
 ```
 
-Note: This is a snippet of text from a thread scoped file. It is not itself a file.
+
+### ✅ Test1
+```bash
+# run a simple test command (placeholder)1
+test1
+```
+
