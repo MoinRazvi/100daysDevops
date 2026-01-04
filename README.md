@@ -1,6 +1,6 @@
 ---
 
-# 📅 Day 01 – Introduction to DevOps & Environment Setup
+# 📅 Introduction to DevOps & Environment Setup
 
 ## 📌 Objective
 
