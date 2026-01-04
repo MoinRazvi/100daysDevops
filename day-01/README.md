@@ -34,7 +34,8 @@ This enforces the **Principle of Least Privilege**.
 cat /etc/shells
 
 
-✅ Create a User with /sbin/nologin
+### **✅ Create a User with /sbin/nologin**
+```bash
 sudo useradd -m -s /sbin/nologin appuser
 
 
