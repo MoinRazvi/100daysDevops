@@ -223,3 +223,6 @@ curl http://stapp01:3001
 * firewalld and iptables are **independent layers**
 * Never disable security controls blindly
 * CLI tools are essential for real DevOps work
+
+<img width="470" height="269" alt="image" src="https://github.com/user-attachments/assets/6e24dc77-18a8-4748-8ca9-6384c5cc3978" />
+
