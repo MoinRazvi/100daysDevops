@@ -8,7 +8,7 @@ This setup reflects a **real-world staging / pre-production configuration**, whe
 
 ---
 
-## 🧩 Problem Statement
+## 🧩 Problem Statements
 
 xFusionCorp Industries plans to host two static websites (`blog` and `apps`) on **App Server 1**.
 
