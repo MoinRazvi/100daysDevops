@@ -234,9 +234,3 @@ chown root:root          ❌
 ✔ Lab Passed
 ✔ PHP executed successfully
 ✔ Configuration validated
-
-🚀 **Day 20 completed successfully**
-
-```
-
-<img width="494" height="278" alt="image" src="https://github.com/user-attachments/assets/a8be8f41-f8cb-4045-977a-cda7934c9abc" />
