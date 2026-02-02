@@ -1,4 +1,4 @@
-## 🚀 Day 28 – Revert Latest Git Commit (Apps Repository)
+## 🚀 Day 27 – Revert Latest Git Commit (Apps Repository)
 
 ## 🎯 Objective
 
