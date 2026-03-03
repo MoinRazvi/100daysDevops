@@ -1,4 +1,4 @@
-# 🚀 Day 32 – Restore Stashed Changes and Push to Remote
+# 🚀 Day 31 – Restore Stashed Changes and Push to Remote
 
 ## 🎯 Objective
 
