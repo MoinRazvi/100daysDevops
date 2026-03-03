@@ -2,4 +2,4 @@ The Nautilus application development team was working on a git repository /usr/s
 
 In /usr/src/kodekloudrepos/ecommerce git repository, reset the git commit history so that there are only two commits in the commit history i.e initial commit and add data.txt file.
 
-
+d
