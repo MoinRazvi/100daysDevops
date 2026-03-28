@@ -1,5 +1,5 @@
 
-# 🚀 Day 36 – Install Docker and Docker Compose
+# 🚀 Day 35 – Install Docker and Docker Compose
 
 ## 🎯 Objective
 
