@@ -1,4 +1,4 @@
-# 🚀 Day 34 – Fix Git Push Issue and Correct Repository Content
+# 🚀 Day 33 – Fix Git Push Issue and Correct Repository Content
 
 ## 🎯 Objective
 
