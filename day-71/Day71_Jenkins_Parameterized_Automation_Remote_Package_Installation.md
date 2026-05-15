@@ -1,4 +1,4 @@
-# 🚀 Day 72 – Jenkins Parameterized Automation for Remote Package Installation
+# 🚀 Day 71 – Jenkins Parameterized Automation for Remote Package Installation
 
 ## 🎯 Objective
 
