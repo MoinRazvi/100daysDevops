@@ -305,3 +305,7 @@ Executes automation remotely.
 ✔ Infrastructure automation achieved
 
 ---
+
+![Image](https://images.openai.com/static-rsc-4/G1ZVjqLbwP3ML8OKOu0afODO8FVtQlbHk99xcK3MbnAAoS26Ufpn9Xew1UhTTm-01XyjWoHr0raV5Pky8gwadU3PPxhsFEDzsTIjz2IYsH3V5LdXLhIA8lRIAUX0c7AKS69quwiFh77hXqi0K-KsALuxV5KLU8XXvxa9uNL12lAUb3qbQJvPFjcuHCfPEW0V?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/lJKLVbbCd2z2BKCLdnzsz-y3JrLUro9869uY5ZIdUvdSHgcKQkh_-bfW18Cz5k86Aa8bdqYj6jH81_qTsRQtW6ERmjQ1n9WfLOrGZqP1UsuOU2lZPESgo5JsAM6K3P8AkZ9MA82ophNKzVJrpfrwYGNxWuENyZsZfAM9zquF3O4Lbpumn80gtX79-zc2ty_V?purpose=fullsize)
