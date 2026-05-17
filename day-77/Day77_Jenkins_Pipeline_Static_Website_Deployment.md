@@ -407,3 +407,7 @@ git pull origin master
 ✔ CI/CD pipeline completed successfully
 
 ---
+<img width="1147" height="860" alt="image" src="https://github.com/user-attachments/assets/44e6ce8e-293d-4cd2-b615-c0efe33c3a81" />
+
+<img width="1529" height="860" alt="image" src="https://github.com/user-attachments/assets/3183a49b-3b06-407f-bad7-af49cd0919ba" />
+
