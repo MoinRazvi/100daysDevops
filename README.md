@@ -127,3 +127,6 @@ Over the next 100 days, we’ll work with:
 * Strong Linux and Git fundamentals are mandatory
 * This repository will document **daily hands-on learning**
 
+---
+<img width="2250" height="1600" alt="100-Devops" src="https://github.com/user-attachments/assets/b478a330-9b07-485e-a9a2-b22d1d052d32" />
+
